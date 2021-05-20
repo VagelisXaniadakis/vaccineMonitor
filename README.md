@@ -3,11 +3,11 @@ In this project I was asked to implement a program that will accept, process, re
 
 The application can be run as follows (inside the src subdirectory):
   
-  ./vaccineMonitor -c citizenRecordsFile –b bloomSize
+    ./vaccineMonitor -c citizenRecordsFile –b bloomSize
 
 or:
   
-  make -s cleanall all run
+    make -s cleanall all run
   
 The application first opens the citizenRecordsFile file, reads it line by line, verifies its validity and then initializes and stores in memory the data structures to use against executing queries. When the application finishes proccesing the citizenRecordsFile file, it will wait for input from
 the user from the keyboard. The user will be able to give the following commands (arguments in [] are optional):
