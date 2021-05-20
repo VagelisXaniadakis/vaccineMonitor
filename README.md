@@ -4,6 +4,7 @@ In this project I was asked to implement a program that will accept, process, re
 The application can be run as follows (inside the src subdirectory):
   
   ./vaccineMonitor -c citizenRecordsFile –b bloomSize
+
 or:
   
   make -s cleanall all run
