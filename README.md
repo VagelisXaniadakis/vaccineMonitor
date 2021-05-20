@@ -82,4 +82,4 @@ The application will free all allocated memory and exit.
 There also exists a bash script that creates a citizenRecordsFile file that is used as input for the main application.
 The script can be run as follows:
 
-  ./testFile.sh virusesFile countriesFile numLines duplicatesAllowed 
+    ./testFile.sh virusesFile countriesFile numLines duplicatesAllowed 
