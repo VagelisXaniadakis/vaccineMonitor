@@ -1,9 +1,11 @@
 # vaccineMonitor
-In this project we were asked to implement a program that will accept, process, record and answer questions about vaccinations of citizens. More specifically, I implemented a set of structures (bloom filters, linked lists, skip lists) that allow the import and query of large volumes of records.
+In this project I was asked to implement a program that will accept, process, record and answer questions about vaccinations of citizens. More specifically, I implemented a set of structures (bloom filters, linked lists, skip lists) that allow the import and query of large volumes of records.
 
-The application can be run as follows (inside the src subdirectory) :
+The application can be run as follows (inside the src subdirectory):
+  
   ./vaccineMonitor -c <citizenRecordsFile> –b <bloomSize>
 or:
+  
   make -s cleanall all run
   
 The application first opens the <citizenRecordsFile> file, reads it line by line, verifies its validity and then initializes and stores in memory the data structures to use against executing queries. When the application finishes proccesing the <citizenRecordsFile> file, it will wait for input from
