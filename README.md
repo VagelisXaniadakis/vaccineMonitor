@@ -31,7 +31,7 @@ The application checks the skip list associated with virusName and prints a mess
 with citizenID ID number has been vaccinated against virusName.
 
 
-    ● /populationStatus [country] virusName date1 date2
+    /populationStatus [country] virusName date1 date2
 
 If no country argument is given, the application prints the number of citizens for the virusName disease
 in each country vaccinated within [date1 ... date2] and the percentage of the population of the vaccinated country. 
@@ -41,7 +41,7 @@ If there is a definition for date1 there should also be a definition for date2,
 otherwise an error message is printed to the user.
 
 
-● /popStatusByAge [country] virusName date1 date2
+    /popStatusByAge [country] virusName date1 date2
 
 If no country argument is given, the application will print the virusName number for the disease
 vaccinations by age group in each country and the percentage of the population in the age group
@@ -53,13 +53,13 @@ If there is a definition for date1 there should be a definition for date2, other
 an error message is printed to the user.
 
 
-● /insertCitizenRecord citizenID firstName lastName country age virusName YES/NO [date]
+    /insertCitizenRecord citizenID firstName lastName country age virusName YES/NO [date]
 
 The application will insert in the bloom filter and in the appropriate skip list related to the virusName virus
 a new record with its details. 
 
 
-● /vaccinateNow citizenID firstName lastName country age virusName
+    /vaccinateNow citizenID firstName lastName country age virusName
 
 The application checks if the citizen with citizenID ID number has already been vaccinated against the virus
 virusName and if so, prints an error message.
@@ -67,13 +67,13 @@ Otherwise, the application inserts the record in the bloom filter and the approp
 the virusName virus.
   
   
-● /list-nonVaccinated-Persons virusName
+    /list-nonVaccinated-Persons virusName
 
 The application will access the appropriate skip list related to the virusName virus and will print
 all citizens who have not been vaccinated against virusName. 
 
 
-● /exit
+    /exit
 
 The application will free all allocated memory and exit.
   
