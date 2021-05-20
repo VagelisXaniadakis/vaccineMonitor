@@ -10,10 +10,11 @@ or:
     make -s cleanall all run
   
 The application first opens the citizenRecordsFile file, reads it line by line, verifies its validity and then initializes and stores in memory the data structures to use against executing queries. When the application finishes proccesing the citizenRecordsFile file, it will wait for input from
-the user from the keyboard. The user will be able to give the following commands (arguments in [] are optional):
+the user from the keyboard. The user will be able to give the following commands (arguments in [ ] are optional):
+●
 
-
-● /vaccineStatusBloom citizenID virusName
+    /vaccineStatusBloom citizenID virusName
+/vaccineStatusBloom citizenID virusName
 
 The application checks the bloom filter associated with virusName and prints a message whether
 a citizen with a citizenID ID number has been vaccinated against the virusName.
