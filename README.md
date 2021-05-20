@@ -12,7 +12,6 @@ or:
 The application first opens the citizenRecordsFile file, reads it line by line, verifies its validity and then initializes and stores in memory the data structures to use against executing queries. When the application finishes proccesing the citizenRecordsFile file, it will wait for input from
 the user from the keyboard. The user will be able to give the following commands (arguments in [ ] are optional):
 
-●
 
     /vaccineStatusBloom citizenID virusName
 
@@ -20,19 +19,19 @@ The application checks the bloom filter associated with virusName and prints a m
 a citizen with a citizenID ID number has been vaccinated against the virusName.
   
   
-● /vaccineStatus citizenID virusName
+    /vaccineStatus citizenID virusName
 
 H εφαρμογή θα ελέγχει τη skip list που σχετίζεται με virusName και θα τυπώνει μήνυμα για το αν ο πολίτης
 με αριθμό ταυτότητας citizenID έχει κάνει το εμβόλιο κατά του virusName.
 
 
-● /vaccineStatus citizenID
+    /vaccineStatus citizenID
 
 The application checks the skip list associated with virusName and prints a message about whether the citizen
 with citizenID ID number has been vaccinated against virusName.
 
 
-● /populationStatus [country] virusName date1 date2
+    ● /populationStatus [country] virusName date1 date2
 
 If no country argument is given, the application prints the number of citizens for the virusName disease
 in each country vaccinated within [date1 ... date2] and the percentage of the population of the vaccinated country. 
