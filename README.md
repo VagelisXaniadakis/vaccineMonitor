@@ -1,8 +1,7 @@
 # vaccineMonitor
 In this project I was asked to implement a program that will accept, process, record and answer questions about vaccinations of citizens. More precisely, I created a set of structures (bloom filters, linked lists, skip lists) that allow the import and query of large volumes of records.
 
-![image](https://user-images.githubusercontent.com/75081526/119457551-79927800-bd44-11eb-9665-a987f4004a21.png)
-
+![image](https://user-images.githubusercontent.com/75081526/119457663-98910a00-bd44-11eb-9dbe-f4af2ce21f62.png)
 
 The application can be run as follows (inside the src subdirectory):
   
